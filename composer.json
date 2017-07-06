@@ -1,0 +1,13 @@
+{
+    "require": {
+        "willdurand/email-reply-parser": "^2.6",
+        "tedivm/fetch": "^0.7.1",
+        "beberlei/assert": "^2.7",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Fetcher.php"
+        ]
+    }
+}
