@@ -72,7 +72,6 @@ class Fetcher
             ['name' => 'sender', 'contents' => $from],
             ['name' => 'subject', 'contents' => $subject],
             ['name' => 'body-plain', 'contents' => $body],
-            ['name' => 'body-html', 'contents' => (string)$message->getMessageBody(true)],
         ];
         if ($message->getAttachments() !== false) {
             /** @var Attachment $attachment */
