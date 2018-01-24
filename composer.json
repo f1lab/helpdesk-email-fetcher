@@ -9,5 +9,11 @@
         "classmap": [
             "src/Fetcher.php"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/b1rdex/Fetch"
+        }
+    ]
 }
